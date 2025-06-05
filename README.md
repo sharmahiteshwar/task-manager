@@ -28,3 +28,16 @@ A full-stack web application for managing tasks, built with Spring Boot (backend
    ```bash
    git clone https://github.com/your-username/task-manager.git
    ```
+
+2. Backend Setup:
+Navigate to the backend folder: cd backend
+Install dependencies: mvn clean install
+Run the backend: mvn spring-boot:run
+Access the API at http://localhost:8080/api/tasks
+View the H2 database console at http://localhost:8080/h2-console (JDBC URL: jdbc:h2:mem:testdb, Username: sa, Password: blank)
+
+3. Frontend Setup:
+Open a new terminal and navigate to the frontend folder: cd frontend
+Install dependencies: npm install
+Run the frontend: npm start
+Access the app at http://localhost:3000
