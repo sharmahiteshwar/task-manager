@@ -26,7 +26,7 @@ A full-stack web application for managing tasks, built with Spring Boot (backend
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/task-manager.git
+   (https://github.com/sharmahiteshwar/task-manager.git)
    ```
 
 2. Backend Setup:
@@ -41,3 +41,12 @@ A full-stack web application for managing tasks, built with Spring Boot (backend
    -Install dependencies: npm install
    -Run the frontend: npm start
    -Access the app at http://localhost:3000
+
+
+Technologies
+Backend: Spring Boot, Spring Data JPA, H2 Database, REST
+Frontend: React, Tailwind CSS, Axios
+
+Notes
+Ensure the backend is running before starting the frontend to avoid CORS errors.
+The backend uses an in-memory H2 database, so data resets on restart.
