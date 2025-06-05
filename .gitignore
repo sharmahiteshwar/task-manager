@@ -1,0 +1,23 @@
+# Backend (Spring Boot)
+backend/target/
+backend/*.class
+backend/*.log
+backend/.idea/
+backend/*.iml
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
+# Frontend (React)
+frontend/node_modules/
+frontend/.pnp*
+frontend/.yarn/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# General
+.DS_Store
